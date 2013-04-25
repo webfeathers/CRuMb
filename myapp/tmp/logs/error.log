@@ -1,0 +1,1276 @@
+2013-04-24 11:38:39 Error: [MissingControllerException] Controller class CakephpController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/
+Stack Trace:
+#0 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-24 11:40:16 Error: [MissingControllerException] Controller class CakephpController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/
+Stack Trace:
+#0 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-24 11:53:22 Error: [MissingControllerException] Controller class CustomersController could not be found.
+Exception Attributes: array (
+  'class' => 'CustomersController',
+  'plugin' => NULL,
+)
+Request URL: /customers
+Stack Trace:
+#0 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-24 11:53:33 Error: [MissingControllerException] Controller class CustomerController could not be found.
+Exception Attributes: array (
+  'class' => 'CustomerController',
+  'plugin' => NULL,
+)
+Request URL: /customer
+Stack Trace:
+#0 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-24 11:53:34 Error: [MissingControllerException] Controller class CustomerController could not be found.
+Exception Attributes: array (
+  'class' => 'CustomerController',
+  'plugin' => NULL,
+)
+Request URL: /customer
+Stack Trace:
+#0 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-24 11:53:48 Error: Fatal Error (1): Call to a member function find() on a non-object in [/home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/Controller/CustomerController.php, line 6]
+2013-04-24 11:53:48 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /customer
+Stack Trace:
+#0 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/feathers/...', 6)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/feathers/...', 6, Array)
+#2 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/feathers/...', 6, Array)
+#3 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-04-24 11:54:06 Error: [MissingActionException] Action CustomerController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'CustomerController',
+  'action' => 'index',
+)
+Request URL: /customer
+Stack Trace:
+#0 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(CustomerController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-04-24 11:55:06 Error: [MissingActionException] Action CustomerController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'CustomerController',
+  'action' => 'index',
+)
+Request URL: /customer
+Stack Trace:
+#0 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(CustomerController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-04-24 11:55:07 Error: [MissingActionException] Action CustomerController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'CustomerController',
+  'action' => 'index',
+)
+Request URL: /customer
+Stack Trace:
+#0 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(CustomerController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-04-24 11:55:15 Error: [MissingControllerException] Controller class CustomersController could not be found.
+Exception Attributes: array (
+  'class' => 'CustomersController',
+  'plugin' => NULL,
+)
+Request URL: /customers
+Stack Trace:
+#0 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-24 11:55:22 Error: [MissingActionException] Action CustomerController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'CustomerController',
+  'action' => 'index',
+)
+Request URL: /customer
+Stack Trace:
+#0 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(CustomerController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-04-24 11:55:30 Error: [MissingViewException] View file "/home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/View/Customer/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/View/Customer/index.ctp',
+)
+Request URL: /customer
+Stack Trace:
+#0 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Controller/Controller.php(948): View->render(NULL, NULL)
+#2 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#3 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(CustomerController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-04-24 11:58:55 Error: [MissingControllerException] Controller class CustomersController could not be found.
+Exception Attributes: array (
+  'class' => 'CustomersController',
+  'plugin' => NULL,
+)
+Request URL: /customers
+Stack Trace:
+#0 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-24 12:29:13 Error: [MissingPluginException] Plugin BootstrapCake could not be found.
+Exception Attributes: array (
+  'plugin' => 'BootstrapCake',
+)
+Stack Trace:
+#0 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/Config/bootstrap.php(75): CakePlugin::load('BootstrapCake')
+#1 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Core/Configure.php(93): include('/home/feathers/...')
+#2 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/bootstrap.php(170): Configure::bootstrap(true)
+#3 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/webroot/index.php(91): include('/home/feathers/...')
+#4 {main}
+2013-04-24 12:32:31 Error: [MissingControllerException] Controller class CustomersController could not be found.
+Exception Attributes: array (
+  'class' => 'CustomersController',
+  'plugin' => NULL,
+)
+Request URL: /customers
+Stack Trace:
+#0 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-24 12:36:39 Error: [MissingControllerException] Controller class CustomersController could not be found.
+Exception Attributes: array (
+  'class' => 'CustomersController',
+  'plugin' => NULL,
+)
+Request URL: /customers
+Stack Trace:
+#0 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-24 13:45:39 Error: [MissingActionException] Action CustomerController::checkin() could not be found.
+Exception Attributes: array (
+  'controller' => 'CustomerController',
+  'action' => 'checkin',
+)
+Request URL: /customer/checkin
+Stack Trace:
+#0 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(CustomerController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-04-24 13:45:40 Error: [MissingActionException] Action CustomerController::checkin() could not be found.
+Exception Attributes: array (
+  'controller' => 'CustomerController',
+  'action' => 'checkin',
+)
+Request URL: /customer/checkin
+Stack Trace:
+#0 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(CustomerController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-04-24 14:01:59 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-04-24 14:01:59 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-04-24 14:02:00 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-04-24 14:02:03 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-04-24 14:02:10 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-04-24 14:03:48 Error: [MissingViewException] View file "/home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/View/Users/login.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/View/Users/login.ctp',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Controller/Controller.php(948): View->render(NULL, NULL)
+#2 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#3 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-04-24 14:04:33 Error: [MissingViewException] View file "/home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/View/Users/login.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/View/Users/login.ctp',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Controller/Controller.php(948): View->render(NULL, NULL)
+#2 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#3 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-04-24 14:06:00 Error: [MissingViewException] View file "/home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/View/Users/login.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/View/Users/login.ctp',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Controller/Controller.php(948): View->render(NULL, NULL)
+#2 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#3 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-04-24 14:06:26 Error: [MissingViewException] View file "/home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/View/Users/login.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/View/Users/login.ctp',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Controller/Controller.php(948): View->render(NULL, NULL)
+#2 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#3 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-04-24 14:08:02 Error: [MissingViewException] View file "/home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/View/Users/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/View/Users/index.ctp',
+)
+Request URL: /users
+Stack Trace:
+#0 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Controller/Controller.php(948): View->render(NULL, NULL)
+#2 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#3 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-04-24 14:08:04 Error: [MissingViewException] View file "/home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/View/Users/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/View/Users/index.ctp',
+)
+Request URL: /users
+Stack Trace:
+#0 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Controller/Controller.php(948): View->render(NULL, NULL)
+#2 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#3 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-04-24 14:08:19 Error: [MissingActionException] Action CustomerController::checkin() could not be found.
+Exception Attributes: array (
+  'controller' => 'CustomerController',
+  'action' => 'checkin',
+)
+Request URL: /customer/checkin
+Stack Trace:
+#0 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(CustomerController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-04-24 14:08:45 Error: [MissingActionException] Action CustomerController::checkin() could not be found.
+Exception Attributes: array (
+  'controller' => 'CustomerController',
+  'action' => 'checkin',
+)
+Request URL: /customer/checkin
+Stack Trace:
+#0 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(CustomerController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-04-24 14:09:30 Error: [MissingViewException] View file "/home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/View/Users/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/View/Users/index.ctp',
+)
+Request URL: /users
+Stack Trace:
+#0 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Controller/Controller.php(948): View->render(NULL, NULL)
+#2 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#3 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-04-24 14:10:13 Error: [MissingViewException] View file "/home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/View/Users/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/View/Users/index.ctp',
+)
+Request URL: /users
+Stack Trace:
+#0 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Controller/Controller.php(948): View->render(NULL, NULL)
+#2 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#3 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-04-24 14:14:12 Error: [MissingViewException] View file "/home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/View/Users/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/View/Users/index.ctp',
+)
+Request URL: /users
+Stack Trace:
+#0 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Controller/Controller.php(948): View->render(NULL, NULL)
+#2 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#3 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-04-24 14:51:42 Error: [MissingControllerException] Controller class UserController could not be found.
+Exception Attributes: array (
+  'class' => 'UserController',
+  'plugin' => NULL,
+)
+Request URL: /user/logout
+Stack Trace:
+#0 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-24 14:51:43 Error: [MissingControllerException] Controller class UserController could not be found.
+Exception Attributes: array (
+  'class' => 'UserController',
+  'plugin' => NULL,
+)
+Request URL: /user/logout
+Stack Trace:
+#0 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-24 15:10:39 Error: [MissingControllerException] Controller class UserController could not be found.
+Exception Attributes: array (
+  'class' => 'UserController',
+  'plugin' => NULL,
+)
+Request URL: /user/
+Stack Trace:
+#0 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-24 15:10:40 Error: [MissingControllerException] Controller class UserController could not be found.
+Exception Attributes: array (
+  'class' => 'UserController',
+  'plugin' => NULL,
+)
+Request URL: /user
+Stack Trace:
+#0 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-24 15:33:53 Error: [MissingControllerException] Controller class UserController could not be found.
+Exception Attributes: array (
+  'class' => 'UserController',
+  'plugin' => NULL,
+)
+Request URL: /user/edit
+Stack Trace:
+#0 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-24 15:33:54 Error: [MissingControllerException] Controller class UserController could not be found.
+Exception Attributes: array (
+  'class' => 'UserController',
+  'plugin' => NULL,
+)
+Request URL: /user/edit
+Stack Trace:
+#0 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-24 15:33:56 Error: [MissingControllerException] Controller class UserController could not be found.
+Exception Attributes: array (
+  'class' => 'UserController',
+  'plugin' => NULL,
+)
+Request URL: /user/edit/1
+Stack Trace:
+#0 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-24 15:33:57 Error: [MissingControllerException] Controller class UserController could not be found.
+Exception Attributes: array (
+  'class' => 'UserController',
+  'plugin' => NULL,
+)
+Request URL: /user/edit/1
+Stack Trace:
+#0 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-24 15:34:00 Error: [MissingControllerException] Controller class UserController could not be found.
+Exception Attributes: array (
+  'class' => 'UserController',
+  'plugin' => NULL,
+)
+Request URL: /user
+Stack Trace:
+#0 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-24 15:34:38 Error: [MissingControllerException] Controller class UserController could not be found.
+Exception Attributes: array (
+  'class' => 'UserController',
+  'plugin' => NULL,
+)
+Request URL: /user/add
+Stack Trace:
+#0 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-24 15:34:39 Error: [MissingControllerException] Controller class UserController could not be found.
+Exception Attributes: array (
+  'class' => 'UserController',
+  'plugin' => NULL,
+)
+Request URL: /user/add
+Stack Trace:
+#0 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-24 15:35:18 Error: [NotFoundException] Invalid user
+Request URL: /users/edit
+Stack Trace:
+#0 [internal function]: UsersController->edit()
+#1 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-04-24 15:35:33 Error: [MissingViewException] View file "/home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/View/Users/edit.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/View/Users/edit.ctp',
+)
+Request URL: /users/edit/1
+Stack Trace:
+#0 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Controller/Controller.php(948): View->render(NULL, NULL)
+#2 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#3 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-04-24 15:35:36 Error: [NotFoundException] Invalid user
+Request URL: /users/edit/2
+Stack Trace:
+#0 [internal function]: UsersController->edit('2')
+#1 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-04-24 15:35:47 Error: [NotFoundException] Invalid user
+Request URL: /users/edit/0
+Stack Trace:
+#0 [internal function]: UsersController->edit('0')
+#1 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-04-24 15:36:20 Error: [MissingActionException] Action CustomerController::checkin() could not be found.
+Exception Attributes: array (
+  'controller' => 'CustomerController',
+  'action' => 'checkin',
+)
+Request URL: /customer/checkin
+Stack Trace:
+#0 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(CustomerController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-04-24 15:36:48 Error: [MissingActionException] Action CustomerController::checkin() could not be found.
+Exception Attributes: array (
+  'controller' => 'CustomerController',
+  'action' => 'checkin',
+)
+Request URL: /customer/checkin
+Stack Trace:
+#0 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(CustomerController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-04-24 15:36:57 Error: [MissingViewException] View file "/home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/View/Checkin/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/View/Checkin/index.ctp',
+)
+Request URL: /checkin
+Stack Trace:
+#0 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Controller/Controller.php(948): View->render(NULL, NULL)
+#2 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#3 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(CheckinController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-04-24 15:36:58 Error: [MissingViewException] View file "/home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/View/Checkin/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/View/Checkin/index.ctp',
+)
+Request URL: /checkin
+Stack Trace:
+#0 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Controller/Controller.php(948): View->render(NULL, NULL)
+#2 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#3 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(CheckinController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-04-24 15:37:51 Error: [MissingActionException] Action CustomerController::checkin() could not be found.
+Exception Attributes: array (
+  'controller' => 'CustomerController',
+  'action' => 'checkin',
+)
+Request URL: /customer/checkin
+Stack Trace:
+#0 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(CustomerController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-04-24 15:38:03 Error: [MissingActionException] Action CustomerController::checkin() could not be found.
+Exception Attributes: array (
+  'controller' => 'CustomerController',
+  'action' => 'checkin',
+)
+Request URL: /customer/checkin
+Stack Trace:
+#0 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(CustomerController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-04-24 15:38:09 Error: [MissingControllerException] Controller class AdminController could not be found.
+Exception Attributes: array (
+  'class' => 'AdminController',
+  'plugin' => NULL,
+)
+Request URL: /admin/employee
+Stack Trace:
+#0 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-24 15:38:11 Error: [MissingControllerException] Controller class AdminController could not be found.
+Exception Attributes: array (
+  'class' => 'AdminController',
+  'plugin' => NULL,
+)
+Request URL: /admin/employee
+Stack Trace:
+#0 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-24 15:38:59 Error: [MissingControllerException] Controller class AdminController could not be found.
+Exception Attributes: array (
+  'class' => 'AdminController',
+  'plugin' => NULL,
+)
+Request URL: /admin/employee
+Stack Trace:
+#0 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-24 15:39:21 Error: [MissingControllerException] Controller class AdminController could not be found.
+Exception Attributes: array (
+  'class' => 'AdminController',
+  'plugin' => NULL,
+)
+Request URL: /admin/employee
+Stack Trace:
+#0 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-24 15:39:33 Error: [MissingActionException] Action CustomerController::checkin() could not be found.
+Exception Attributes: array (
+  'controller' => 'CustomerController',
+  'action' => 'checkin',
+)
+Request URL: /customer/checkin
+Stack Trace:
+#0 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(CustomerController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-04-24 15:40:29 Error: [MissingControllerException] Controller class AdminController could not be found.
+Exception Attributes: array (
+  'class' => 'AdminController',
+  'plugin' => NULL,
+)
+Request URL: /admin/employee
+Stack Trace:
+#0 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-24 15:45:55 Error: [MissingControllerException] Controller class JusersController could not be found.
+Exception Attributes: array (
+  'class' => 'JusersController',
+  'plugin' => NULL,
+)
+Request URL: /jusers/add
+Stack Trace:
+#0 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-24 15:45:56 Error: [MissingControllerException] Controller class JusersController could not be found.
+Exception Attributes: array (
+  'class' => 'JusersController',
+  'plugin' => NULL,
+)
+Request URL: /jusers/add
+Stack Trace:
+#0 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-24 15:46:12 Error: [MissingViewException] View file "/home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/View/Users/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/View/Users/index.ctp',
+)
+Request URL: /users
+Stack Trace:
+#0 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Controller/Controller.php(948): View->render(NULL, NULL)
+#2 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#3 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-04-24 15:47:15 Error: [MissingControllerException] Controller class JusersController could not be found.
+Exception Attributes: array (
+  'class' => 'JusersController',
+  'plugin' => NULL,
+)
+Request URL: /jusers/add
+Stack Trace:
+#0 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-24 15:52:14 Error: [MissingControllerException] Controller class AdminController could not be found.
+Exception Attributes: array (
+  'class' => 'AdminController',
+  'plugin' => NULL,
+)
+Request URL: /admin/distributor
+Stack Trace:
+#0 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-24 15:52:15 Error: [MissingControllerException] Controller class AdminController could not be found.
+Exception Attributes: array (
+  'class' => 'AdminController',
+  'plugin' => NULL,
+)
+Request URL: /admin/distributor
+Stack Trace:
+#0 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-24 15:53:35 Error: [MissingControllerException] Controller class AdminController could not be found.
+Exception Attributes: array (
+  'class' => 'AdminController',
+  'plugin' => NULL,
+)
+Request URL: /admin/distributor
+Stack Trace:
+#0 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-24 15:53:36 Error: [MissingControllerException] Controller class AdminController could not be found.
+Exception Attributes: array (
+  'class' => 'AdminController',
+  'plugin' => NULL,
+)
+Request URL: /admin/employees
+Stack Trace:
+#0 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-24 15:53:37 Error: [MissingControllerException] Controller class AdminController could not be found.
+Exception Attributes: array (
+  'class' => 'AdminController',
+  'plugin' => NULL,
+)
+Request URL: /admin/employees
+Stack Trace:
+#0 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-24 15:53:38 Error: [MissingControllerException] Controller class AdminController could not be found.
+Exception Attributes: array (
+  'class' => 'AdminController',
+  'plugin' => NULL,
+)
+Request URL: /admin/distributors
+Stack Trace:
+#0 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-24 15:53:39 Error: [MissingControllerException] Controller class AdminController could not be found.
+Exception Attributes: array (
+  'class' => 'AdminController',
+  'plugin' => NULL,
+)
+Request URL: /admin/distributors
+Stack Trace:
+#0 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-24 15:53:39 Error: [MissingControllerException] Controller class AdminController could not be found.
+Exception Attributes: array (
+  'class' => 'AdminController',
+  'plugin' => NULL,
+)
+Request URL: /admin/checkins
+Stack Trace:
+#0 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-24 15:53:40 Error: [MissingControllerException] Controller class AdminController could not be found.
+Exception Attributes: array (
+  'class' => 'AdminController',
+  'plugin' => NULL,
+)
+Request URL: /admin/checkins
+Stack Trace:
+#0 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-24 15:58:16 Error: [MissingActionException] Action AdminController::checkins() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminController',
+  'action' => 'checkins',
+)
+Request URL: /admin/checkins
+Stack Trace:
+#0 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AdminController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-04-24 15:58:27 Error: [MissingViewException] View file "/home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/View/Admin/checkins.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/View/Admin/checkins.ctp',
+)
+Request URL: /admin/checkins
+Stack Trace:
+#0 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Controller/Controller.php(948): View->render(NULL, NULL)
+#2 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#3 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AdminController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-04-24 15:58:30 Error: [MissingActionException] Action AdminController::distributors() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminController',
+  'action' => 'distributors',
+)
+Request URL: /admin/distributors
+Stack Trace:
+#0 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AdminController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-04-24 15:58:40 Error: [MissingViewException] View file "/home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/View/Admin/distributors.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/View/Admin/distributors.ctp',
+)
+Request URL: /admin/distributors
+Stack Trace:
+#0 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Controller/Controller.php(948): View->render(NULL, NULL)
+#2 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#3 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AdminController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-04-24 15:58:42 Error: [MissingViewException] View file "/home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/View/Admin/checkins.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/View/Admin/checkins.ctp',
+)
+Request URL: /admin/checkins
+Stack Trace:
+#0 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Controller/Controller.php(948): View->render(NULL, NULL)
+#2 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#3 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AdminController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-04-24 15:58:44 Error: [MissingViewException] View file "/home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/View/Admin/distributors.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/View/Admin/distributors.ctp',
+)
+Request URL: /admin/distributors
+Stack Trace:
+#0 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Controller/Controller.php(948): View->render(NULL, NULL)
+#2 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#3 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AdminController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-04-24 15:58:45 Error: [MissingActionException] Action AdminController::employees() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminController',
+  'action' => 'employees',
+)
+Request URL: /admin/employees
+Stack Trace:
+#0 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AdminController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-04-24 15:58:54 Error: [MissingViewException] View file "/home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/View/Admin/employees.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/View/Admin/employees.ctp',
+)
+Request URL: /admin/employees
+Stack Trace:
+#0 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Controller/Controller.php(948): View->render(NULL, NULL)
+#2 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#3 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AdminController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-04-24 15:59:59 Error: [MissingViewException] View file "/home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/View/Admin/checkins.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/View/Admin/checkins.ctp',
+)
+Request URL: /admin/checkins
+Stack Trace:
+#0 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Controller/Controller.php(948): View->render(NULL, NULL)
+#2 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#3 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AdminController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-04-24 16:01:01 Error: [MissingViewException] View file "/home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/View/Customer/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/View/Customer/index.ctp',
+)
+Request URL: /customer
+Stack Trace:
+#0 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Controller/Controller.php(948): View->render(NULL, NULL)
+#2 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#3 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(CustomerController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-04-24 16:03:05 Error: [MissingControllerException] Controller class JusersController could not be found.
+Exception Attributes: array (
+  'class' => 'JusersController',
+  'plugin' => NULL,
+)
+Request URL: /jusers/add
+Stack Trace:
+#0 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-24 16:05:04 Error: [MissingControllerException] Controller class CheckinsController could not be found.
+Exception Attributes: array (
+  'class' => 'CheckinsController',
+  'plugin' => NULL,
+)
+Request URL: /checkins
+Stack Trace:
+#0 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-24 16:05:05 Error: [MissingControllerException] Controller class CheckinsController could not be found.
+Exception Attributes: array (
+  'class' => 'CheckinsController',
+  'plugin' => NULL,
+)
+Request URL: /checkins
+Stack Trace:
+#0 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-24 16:05:21 Error: [MissingActionException] Action AdminController::customers() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminController',
+  'action' => 'customers',
+)
+Request URL: /admin/customers
+Stack Trace:
+#0 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AdminController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-04-24 16:05:22 Error: [MissingActionException] Action AdminController::customers() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminController',
+  'action' => 'customers',
+)
+Request URL: /admin/customers
+Stack Trace:
+#0 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AdminController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-04-24 16:06:32 Error: [MissingActionException] Action AdminController::customers() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminController',
+  'action' => 'customers',
+)
+Request URL: /admin/customers
+Stack Trace:
+#0 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AdminController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-04-24 16:06:38 Error: [MissingActionException] Action AdminController::customers() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminController',
+  'action' => 'customers',
+)
+Request URL: /admin/customers
+Stack Trace:
+#0 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AdminController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-04-24 16:06:41 Error: [MissingActionException] Action AdminController::customers() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminController',
+  'action' => 'customers',
+)
+Request URL: /admin/customers
+Stack Trace:
+#0 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AdminController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-04-24 16:06:43 Error: [MissingControllerException] Controller class CustomersController could not be found.
+Exception Attributes: array (
+  'class' => 'CustomersController',
+  'plugin' => NULL,
+)
+Request URL: /customers
+Stack Trace:
+#0 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-24 16:06:44 Error: [MissingControllerException] Controller class CustomersController could not be found.
+Exception Attributes: array (
+  'class' => 'CustomersController',
+  'plugin' => NULL,
+)
+Request URL: /customers
+Stack Trace:
+#0 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-24 16:06:59 Error: [MissingControllerException] Controller class CustomersController could not be found.
+Exception Attributes: array (
+  'class' => 'CustomersController',
+  'plugin' => NULL,
+)
+Request URL: /customers
+Stack Trace:
+#0 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-24 16:07:04 Error: [MissingControllerException] Controller class CustomersController could not be found.
+Exception Attributes: array (
+  'class' => 'CustomersController',
+  'plugin' => NULL,
+)
+Request URL: /customers
+Stack Trace:
+#0 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-24 16:07:16 Error: [MissingControllerException] Controller class FollowupsController could not be found.
+Exception Attributes: array (
+  'class' => 'FollowupsController',
+  'plugin' => NULL,
+)
+Request URL: /followups
+Stack Trace:
+#0 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-24 16:07:17 Error: [MissingControllerException] Controller class FollowupsController could not be found.
+Exception Attributes: array (
+  'class' => 'FollowupsController',
+  'plugin' => NULL,
+)
+Request URL: /followups
+Stack Trace:
+#0 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-24 16:08:25 Error: [MissingControllerException] Controller class FollowupsController could not be found.
+Exception Attributes: array (
+  'class' => 'FollowupsController',
+  'plugin' => NULL,
+)
+Request URL: /followups
+Stack Trace:
+#0 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-24 16:08:30 Error: [MissingControllerException] Controller class FollowUpsController could not be found.
+Exception Attributes: array (
+  'class' => 'FollowUpsController',
+  'plugin' => NULL,
+)
+Request URL: /followUps
+Stack Trace:
+#0 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-24 16:08:33 Error: [MissingActionException] Action AdminController::customers() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminController',
+  'action' => 'customers',
+)
+Request URL: /admin/customers
+Stack Trace:
+#0 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AdminController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-04-24 16:08:37 Error: [MissingControllerException] Controller class FollowUpsController could not be found.
+Exception Attributes: array (
+  'class' => 'FollowUpsController',
+  'plugin' => NULL,
+)
+Request URL: /FollowUps
+Stack Trace:
+#0 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-24 16:08:59 Error: [MissingControllerException] Controller class FollowUpsController could not be found.
+Exception Attributes: array (
+  'class' => 'FollowUpsController',
+  'plugin' => NULL,
+)
+Request URL: /FollowUps
+Stack Trace:
+#0 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-24 16:09:06 Error: [MissingControllerException] Controller class FollowupsController could not be found.
+Exception Attributes: array (
+  'class' => 'FollowupsController',
+  'plugin' => NULL,
+)
+Request URL: /followups
+Stack Trace:
+#0 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-24 16:09:24 Error: [MissingControllerException] Controller class FollowupsController could not be found.
+Exception Attributes: array (
+  'class' => 'FollowupsController',
+  'plugin' => NULL,
+)
+Request URL: /followups
+Stack Trace:
+#0 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-24 16:09:25 Error: [MissingControllerException] Controller class FollowupsController could not be found.
+Exception Attributes: array (
+  'class' => 'FollowupsController',
+  'plugin' => NULL,
+)
+Request URL: /followups
+Stack Trace:
+#0 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-24 16:10:16 Error: [MissingViewException] View file "/home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/View/Followups/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/View/Followups/index.ctp',
+)
+Request URL: /followups
+Stack Trace:
+#0 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Controller/Controller.php(948): View->render(NULL, NULL)
+#2 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#3 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(FollowupsController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-04-24 16:10:20 Error: [MissingViewException] View file "/home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/View/Followups/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/View/Followups/index.ctp',
+)
+Request URL: /followups
+Stack Trace:
+#0 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Controller/Controller.php(948): View->render(NULL, NULL)
+#2 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#3 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(FollowupsController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-04-24 16:25:24 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /users/logout
+Stack Trace:
+#0 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-24 16:29:08 Error: [MissingViewException] View file "/home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/View/Users/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/View/Users/index.ctp',
+)
+Request URL: /users
+Stack Trace:
+#0 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Controller/Controller.php(948): View->render(NULL, NULL)
+#2 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#3 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-04-24 16:29:34 Error: Fatal Error (4): syntax error, unexpected T_LIST, expecting T_STRING in [/home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/Controller/UsersController.php, line 80]
+2013-04-24 16:29:34 Error: [FatalErrorException] syntax error, unexpected T_LIST, expecting T_STRING
+Request URL: /users
+Stack Trace:
+#0 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/feathers/...', 80)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/feathers/...', 80, Array)
+#2 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/feathers/...', 80, Array)
+#3 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-04-24 16:29:35 Error: Fatal Error (4): syntax error, unexpected T_LIST, expecting T_STRING in [/home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/Controller/UsersController.php, line 80]
+2013-04-24 16:29:35 Error: [FatalErrorException] syntax error, unexpected T_LIST, expecting T_STRING
+Request URL: /users
+Stack Trace:
+#0 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/feathers/...', 80)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/feathers/...', 80, Array)
+#2 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/feathers/...', 80, Array)
+#3 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-04-24 16:29:48 Error: Fatal Error (4): syntax error, unexpected T_LIST, expecting T_STRING in [/home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/Controller/UsersController.php, line 83]
+2013-04-24 16:29:48 Error: [FatalErrorException] syntax error, unexpected T_LIST, expecting T_STRING
+Request URL: /users
+Stack Trace:
+#0 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/feathers/...', 83)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/feathers/...', 83, Array)
+#2 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/feathers/...', 83, Array)
+#3 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-04-24 16:29:50 Error: Fatal Error (4): syntax error, unexpected T_LIST, expecting T_STRING in [/home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/Controller/UsersController.php, line 83]
+2013-04-24 16:29:50 Error: [FatalErrorException] syntax error, unexpected T_LIST, expecting T_STRING
+Request URL: /users
+Stack Trace:
+#0 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/feathers/...', 83)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/feathers/...', 83, Array)
+#2 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/feathers/...', 83, Array)
+#3 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-04-24 16:29:53 Error: Fatal Error (4): syntax error, unexpected T_LIST, expecting T_STRING in [/home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/Controller/UsersController.php, line 83]
+2013-04-24 16:29:53 Error: [FatalErrorException] syntax error, unexpected T_LIST, expecting T_STRING
+Request URL: /users
+Stack Trace:
+#0 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/feathers/...', 83)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/feathers/...', 83, Array)
+#2 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/feathers/...', 83, Array)
+#3 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-04-24 16:29:58 Error: Fatal Error (4): syntax error, unexpected T_LIST, expecting T_STRING in [/home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/Controller/UsersController.php, line 83]
+2013-04-24 16:29:58 Error: [FatalErrorException] syntax error, unexpected T_LIST, expecting T_STRING
+Request URL: /users
+Stack Trace:
+#0 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/feathers/...', 83)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/feathers/...', 83, Array)
+#2 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/feathers/...', 83, Array)
+#3 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-04-24 16:30:01 Error: Fatal Error (4): syntax error, unexpected T_LIST, expecting T_STRING in [/home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/Controller/UsersController.php, line 83]
+2013-04-24 16:30:01 Error: [FatalErrorException] syntax error, unexpected T_LIST, expecting T_STRING
+Request URL: /users/add
+Stack Trace:
+#0 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/feathers/...', 83)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/feathers/...', 83, Array)
+#2 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/feathers/...', 83, Array)
+#3 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-04-24 16:30:16 Error: [MissingViewException] View file "/home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/View/Users/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/View/Users/index.ctp',
+)
+Request URL: /users
+Stack Trace:
+#0 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Controller/Controller.php(948): View->render(NULL, NULL)
+#2 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#3 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-04-24 16:32:28 Error: [MissingHelperException] Helper class usersHelper could not be found.
+Exception Attributes: array (
+  'class' => 'usersHelper',
+  'plugin' => false,
+)
+Request URL: /users
+Stack Trace:
+#0 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/View/HelperCollection.php(63): HelperCollection->load('users')
+#1 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/View/View.php(835): HelperCollection->__isset('users')
+#2 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/View/Users/index.ctp(5): View->__get('users')
+#3 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/View/View.php(947): include('/home/feathers/...')
+#4 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/View/View.php(909): View->_evaluate('/home/feathers/...', Array)
+#5 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/View/View.php(471): View->_render('/home/feathers/...')
+#6 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Controller/Controller.php(948): View->render(NULL, NULL)
+#7 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#8 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#9 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-04-24 16:32:46 Error: Fatal Error (1): Cannot use object of type View as array in [/home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/View/Users/index.ctp, line 5]
+2013-04-24 16:32:46 Error: [FatalErrorException] Cannot use object of type View as array
+Request URL: /users
+Stack Trace:
+#0 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Cannot use obje...', '/home/feathers/...', 5)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot use obje...', '/home/feathers/...', 5, Array)
+#2 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Cannot use obje...', '/home/feathers/...', 5, Array)
+#3 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-04-24 16:40:14 Error: Fatal Error (4): syntax error, unexpected $end in [/home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/View/Users/index.ctp, line 12]
+2013-04-24 16:40:14 Error: [FatalErrorException] syntax error, unexpected $end
+Request URL: /users
+Stack Trace:
+#0 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/feathers/...', 12)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/feathers/...', 12, Array)
+#2 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/feathers/...', 12, Array)
+#3 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-04-25 10:56:14 Error: [MissingControllerException] Controller class PagesController could not be found.
+Exception Attributes: array (
+  'class' => 'PagesController',
+  'plugin' => NULL,
+)
+Request URL: /
+Stack Trace:
+#0 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 10:56:17 Error: [MissingControllerException] Controller class PagesController could not be found.
+Exception Attributes: array (
+  'class' => 'PagesController',
+  'plugin' => NULL,
+)
+Request URL: /
+Stack Trace:
+#0 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 11:08:42 Error: Fatal Error (1): Call to undefined method AuthComponent::disallow() in [/home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/Controller/AppController.php, line 45]
+2013-04-25 11:08:42 Error: [FatalErrorException] Call to undefined method AuthComponent::disallow()
+Request URL: /customer
+Stack Trace:
+#0 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/home/feathers/...', 45)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/home/feathers/...', 45, Array)
+#2 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/home/feathers/...', 45, Array)
+#3 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-04-25 11:08:55 Error: Fatal Error (1): Call to undefined method AuthComponent::disallow() in [/home/feathers/crm.webfeathers.com/CRuMb/cakephp/app/Controller/AppController.php, line 45]
+2013-04-25 11:08:55 Error: [FatalErrorException] Call to undefined method AuthComponent::disallow()
+Request URL: /customer
+Stack Trace:
+#0 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/home/feathers/...', 45)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/home/feathers/...', 45, Array)
+#2 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/home/feathers/...', 45, Array)
+#3 /home/feathers/crm.webfeathers.com/CRuMb/cakephp/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
