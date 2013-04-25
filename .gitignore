@@ -1,0 +1,6 @@
+#CakePHP is required, but shouldn't be in this repo
+cakephp
+#ignore DreamWeaver notes
+*/_notes
+#ignore OS X files, too
+.DS_store
