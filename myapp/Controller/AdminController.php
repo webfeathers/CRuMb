@@ -20,12 +20,31 @@
 
 	}
 	
-	public function viewEmployee($id = '') {
+	public function viewEmployee($id = null) {
 		$this->loadModel('User');
 		$thisUser = $this->User->find('all', array('conditions' => array('User.id' => $id)));		
 		$this->set('user', $thisUser['0']['User']);
 
 	}
+	
+	public function editEmployee($id = null) {
+        $this->User->id = $id;
+        if (!$this->User->exists()) {
+            throw new NotFoundException(__('Invalid user'));
+        }
+        if ($this->request->is('post') || $this->request->is('put')) {
+            if ($this->User->save($this->request->data)) {
+                $this->Session->setFlash(__('The user has been saved'));
+                $this->redirect(array('action' => 'index'));
+            } else {
+                $this->Session->setFlash(__('The user could not be saved. Please, try again.'));
+            }
+        } else {
+            $this->request->data = $this->User->read(null, $id);
+            unset($this->request->data['User']['password']);
+        }
+    }
+
 	/* END Employee functions */
 	
 	
