@@ -42,7 +42,7 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
 	?>
 </head>
 <body>
-	<?php include('../View/Elements/header.php'); ?>
+	<?php echo $this->element('header'); ?>
 	
 	<div class="container">
 	
@@ -54,8 +54,8 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
 			<?php echo $this->fetch('content'); ?>
 				
 		</div>
+		<?php echo $this->element('footer'); ?>
 	
-		<?php include('../View/Elements/footer.php'); ?>
 	</div>
 	
 	<div class="container">

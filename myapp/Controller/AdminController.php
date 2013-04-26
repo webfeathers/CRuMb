@@ -1,14 +1,33 @@
 <?php
 	class AdminController extends AppController {
+	var $uses = array('User');
+	public function beforeFilter() {
+		parent::beforeFilter();
+		//$this->Auth->allow('add'); // Letting users register themselves
+	}
 	public $helpers = array('Html', 'Form');
 
 	public function index(){
 
 	}
 	
+	/* Employee functions */
 	public function employees() {
+		
+		$this->loadModel('User');
+        $this->User->recursive = 0;
+        $this->set('users', $this->paginate());
 
 	}
+	
+	public function viewEmployee($id = '') {
+		$this->loadModel('User');
+		$thisUser = $this->User->find('all', array('conditions' => array('User.id' => $id)));		
+		$this->set('user', $thisUser['0']['User']);
+
+	}
+	/* END Employee functions */
+	
 	
 	public function checkins() {
 
