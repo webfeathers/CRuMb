@@ -32,6 +32,7 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
 	<?php
 		echo $this->Html->meta('icon');
 
+		echo $this->Html->css('cake.sql');
 		echo $this->Html->css('bootstrap');
 		echo $this->Html->css('bootstrap-responsive');
 
@@ -57,8 +58,14 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
 		<?php include('../View/Elements/footer.php'); ?>
 	</div>
 	
+	<div class="container">
+		<div class="row-fluid">
+			<div class="span12">
+				<?php  echo $this->element('sql_dump'); ?>
+			</div>
+		</div>
+	</div>
 
-	<?php // echo $this->element('sql_dump'); ?>
 	<?php
 	
 		echo $this->Html->script('jquery-1.9.1.min');

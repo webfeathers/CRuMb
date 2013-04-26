@@ -19,10 +19,19 @@
 					</li>
 					<?php } // end if is admin ?>
 					
-					<li><a href="/users/logout">Log out</a></li>
 					<?php } // end if is logged in ?>
-
 				</ul>
+
+				<ul class="nav pull-right">
+					
+					<li><a href="/about">About</a></li>
+					<?php if($role != ''){  //show only to logged in user ?>
+					<li><a href="/users/logout">Log out</a></li>
+					<?php } else { // if not logged in, show log in link?>
+					<li><a href="/users/login">Log in</a></li>
+					<?php } //end if is logged in  ?>
+				</ul>
+
 			</div>
 			<!--/.nav-collapse --> 
 		</div>

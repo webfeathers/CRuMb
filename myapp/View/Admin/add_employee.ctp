@@ -6,7 +6,7 @@
         <?php echo $this->Form->input('username');
         echo $this->Form->input('password');
         echo $this->Form->input('role', array(
-            'options' => array('sales' => 'Sales Rep', 'admin' => 'Admin')
+            'options' => array('sales' => 'Sales rep', 'admin' => 'Admin')
         ));
     ?>
     </fieldset>
